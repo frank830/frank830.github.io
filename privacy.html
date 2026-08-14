@@ -191,7 +191,7 @@
       <header>
         <p class="eyebrow">PurrFit</p>
         <h1>Privacy Policy</h1>
-        <p class="effective-date">Effective date: July 28, 2026</p>
+        <p class="effective-date">Effective date: August 14, 2026</p>
       </header>
 
       <p class="intro">
@@ -220,6 +220,44 @@
           choose to provide, such as your email address and the contents of your
           message. We use that information only to respond to your request and
           provide support.
+        </p>
+      </section>
+
+      <section>
+        <h2>Playable puzzle links</h2>
+
+        <p>
+          PurrFit uploads challenge data only when you choose to create a
+          playable puzzle link. Playing a Purrtrait, saving a photo, or exporting
+          a reveal video without creating a playable link does not upload your
+          pet photo.
+        </p>
+
+        <p>
+          To create the link, PurrFit uploads a compressed copy of the pet photo,
+          the pet name you entered, and an anonymous user identifier. Google
+          Firebase Storage and Firebase Authentication, services provided by
+          Google LLC, process this data on our behalf.
+        </p>
+
+        <p>
+          Anyone who receives the link can use it to open and play that specific
+          puzzle. The link should therefore be treated as shareable access to the
+          uploaded photo and puzzle.
+        </p>
+
+        <p>
+          The compressed photo and its attached challenge metadata are
+          automatically deleted from Firebase Storage 90 days after upload. A
+          reveal video file is generated on your device and is never uploaded by
+          PurrFit. If you create a playable link while sharing a video, only the
+          compressed source photo and the link data described above are uploaded.
+        </p>
+
+        <p>
+          Data uploaded for playable links is used only to create, deliver,
+          protect, and expire the shared puzzle. It is not used for advertising,
+          advertising measurement, or tracking you across apps or websites.
         </p>
       </section>
 
@@ -312,15 +350,21 @@
         <ul>
           <li>Provide and operate the game</li>
           <li>Save gameplay progress locally on your device</li>
+          <li>Create and deliver playable puzzle links you request</li>
+          <li>Protect shared puzzles from fraud, abuse, and unauthorized changes</li>
           <li>Display optional rewarded advertisements</li>
           <li>Measure advertising performance</li>
           <li>Detect and prevent fraud, abuse, and invalid advertising activity</li>
           <li>Diagnose crashes and technical problems</li>
-          <li>Maintain the security and reliability of advertising services</li>
+          <li>Maintain the security and reliability of PurrFit and its service providers</li>
           <li>Respond to support requests</li>
         </ul>
 
-        <p>PurrFit does not independently sell personal information to data brokers.</p>
+        <p>
+          PurrFit does not independently sell personal information to data
+          brokers. Data uploaded for playable links is not used for advertising
+          or advertising tracking.
+        </p>
       </section>
 
       <section>
@@ -350,8 +394,17 @@
         </p>
 
         <p>
-          PurrFit does not maintain a server-side player account or a server-side
-          database of your game progress.
+          PurrFit does not maintain a conventional player profile or a
+          server-side database of your game progress. Firebase Authentication
+          uses an anonymous user identifier to authorize the optional playable
+          link service.
+        </p>
+
+        <p>
+          A compressed photo uploaded for a playable puzzle link, together with
+          its attached pet name, anonymous user identifier, and challenge
+          metadata, is automatically deleted from Firebase Storage 90 days after
+          upload. Reveal video files are not uploaded.
         </p>
 
         <p>
@@ -390,12 +443,24 @@
         <h2>Third-party services</h2>
 
         <p>
-          PurrFit uses Google Mobile Ads as a third-party advertising service.
-          Third-party service providers are permitted to process information
-          only for their applicable services and are expected to protect
-          information in accordance with their contractual obligations,
-          applicable law, and protections equivalent to those described in this
-          policy.
+          PurrFit uses Google Firebase Storage and Firebase Authentication,
+          provided by Google LLC, to operate the optional playable puzzle link
+          feature. Firebase processes the compressed photo, pet name, anonymous
+          user identifier, and challenge metadata described above.
+        </p>
+
+        <p>
+          PurrFit also uses Google Mobile Ads as a third-party advertising
+          service. Data uploaded for playable links is not used by PurrFit for
+          advertising or advertising tracking.
+        </p>
+
+        <p>
+          Google’s handling of information is governed by its own policies. You
+          can learn more in the
+          <a href="https://firebase.google.com/support/privacy">Firebase Privacy
+          and Security documentation</a> and the
+          <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
         </p>
 
         <p>
@@ -427,10 +492,12 @@
         </p>
 
         <p>
-          Because PurrFit does not maintain player accounts or a server-side game
-          progress database, we may not possess information that can be
-          associated with you. Advertising-related requests may also need to be
-          submitted through Google’s privacy controls.
+          PurrFit does not maintain a conventional player profile or a
+          server-side game progress database. Playable-link data is associated
+          with an anonymous user identifier, so we may need the applicable
+          challenge link or identifier to locate a shared puzzle. Advertising-
+          related requests may also need to be submitted through Google’s
+          privacy controls.
         </p>
 
         <p>
